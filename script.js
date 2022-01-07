@@ -39,3 +39,4 @@ let treePicture = document.getElementById('palm');
 
 // break ends cycle of loop
 
+
