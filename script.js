@@ -21,6 +21,20 @@ while(!likeTrees) {
 likeTrees = confirm('Do you love trees?');
 }
 
-let howMany = parseInt(prompt('How many trees would you like to see? 1-3'));
+let howMany = parseInt(prompt('How many palm trees would you like to see? 1-3'));
+console.log(typeof howMany);
+let treePicture = document.getElementById('palm');
+ console.log(treePicture);
+ while(howMany > 1) {
+    //     document.getElementById('multipleTrees').appendChild(treePicture);
+    //    console.log(document.getElementById('multipleTrees')) 
+    var x = document.createElement('img');
+    x.src = "palmtree.jpg";
+    x.height = "400"
+    x.width = "400"
+    document.getElementById('multipleTrees').appendChild(x);
+     howMany--;
+        console.log(howMany);
+    }
 
-   
+// break ends cycle of loop
