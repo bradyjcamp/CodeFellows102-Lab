@@ -28,13 +28,14 @@ let treePicture = document.getElementById('palm');
  while(howMany > 1) {
     //     document.getElementById('multipleTrees').appendChild(treePicture);
     //    console.log(document.getElementById('multipleTrees')) 
-    var x = document.createElement('img');
-    x.src = "palmtree.jpg";
-    x.height = "400"
-    x.width = "400"
-    document.getElementById('multipleTrees').appendChild(x);
+    let multiplyTrees = document.createElement('img');
+    multiplyTrees.src = "palmtree.jpg";
+    multiplyTrees.height = "400"
+    multiplyTrees.width = "400"
+    document.getElementById('multipleTrees').appendChild(multiplyTrees);
      howMany--;
         console.log(howMany);
     }
 
 // break ends cycle of loop
+
